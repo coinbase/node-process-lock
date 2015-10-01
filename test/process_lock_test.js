@@ -6,7 +6,6 @@ var secondProcess = new Process('same-name');
 
 describe('ProcessLock', function() {
   it('firstProcess should be able to obtain lock', function(done) {
-
     firstProcess.processLock.lock(function(){
       assert(firstProcess.processLock.owner);
       done();
@@ -14,7 +13,6 @@ describe('ProcessLock', function() {
   });
 
   it('secondProcess should not be able to obtain the lock', function(done) {
-
     secondProcess.processLock.lock(function() {
       assert.equal(false, secondProcess.processLock.owner);
       done();
@@ -85,7 +83,6 @@ describe('ProcessLock', function() {
         assert.equal('open', state);
         done();
       })
-
     }, true)
   })
 

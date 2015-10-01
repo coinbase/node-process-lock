@@ -33,7 +33,6 @@ var ProcessLock = function(key, timeout) {
 ProcessLock.prototype.lock = function(callback) {
   var self = this;
 
-
   redisClient.set(self.key, self.id, 'NX', 'EX', self.timeout, function(err, reply) {
 
     if (reply) {
