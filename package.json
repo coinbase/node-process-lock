@@ -1,0 +1,21 @@
+{
+  "name": "process-lock-node",
+  "version": "1.0.0",
+  "description": "A very simple process locking module using redis",
+  "main": "process_lock.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.cbhq.net:engineering/process-lock-node.git"
+  },
+  "author": "",
+  "private":true,
+  "dependencies": {
+    "redis": "^2.0.1"
+  }
+}
