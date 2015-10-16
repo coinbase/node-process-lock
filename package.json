@@ -1,5 +1,5 @@
 {
-  "name": "process-lock-node",
+  "name": "node-process-lock",
   "version": "1.0.0",
   "description": "A very simple process locking module using redis",
   "main": "process_lock.js",
