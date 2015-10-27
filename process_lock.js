@@ -1,5 +1,7 @@
 var redis = require('redis');
-var redisClient = redis.createClient();
+var redisClient = redis.createClient(
+  process.env.REDIS_URL
+);
 
 /*
   this is a process locker module implemented in Node
