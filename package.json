@@ -1,6 +1,6 @@
 {
   "name": "process-lock-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple process locking module using redis",
   "main": "process_lock.js",
   "directories": {
@@ -11,10 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.cbhq.net:engineering/process-lock-node.git"
+    "url": "https://github.com/coinbase/node-process-lock.git"
   },
   "author": "",
-  "private":true,
   "dependencies": {
     "redis": "2.0.1"
   }
