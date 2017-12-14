@@ -1,8 +1,8 @@
 var ProcessLock = require('../../process_lock');
 
-var Process = function(name) {
+var Process = function(name, timeout) {
   this.name = name;
-  this.processLock = new ProcessLock(this.name, 10);
+  this.processLock = new ProcessLock(this.name, timeout);
 };
 
 module.exports = Process;
