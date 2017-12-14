@@ -1,6 +1,6 @@
 {
   "name": "process-lock-node",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A very simple process locking module using redis",
   "main": "process_lock.js",
   "directories": {
@@ -15,6 +15,7 @@
   },
   "author": "",
   "dependencies": {
-    "redis": "2.0.1"
+    "redis": "2.0.1",
+    "uuid": "3.1.0"
   }
 }
